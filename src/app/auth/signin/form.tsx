@@ -32,7 +32,7 @@ export default function Form({ submit, error, loading }: Props) {
           id="email"
           type="email"
           autoComplete="on"
-          className="rounded-lg p-1 text-black"
+          className="rounded-lg p-1 text-black dark:text-white"
           name="email"
         />
         <label htmlFor="password" className="text-xl my-2">
@@ -43,7 +43,7 @@ export default function Form({ submit, error, loading }: Props) {
           id="password"
           type="password"
           autoComplete="on"
-          className="rounded-lg p-1 text-black"
+          className="rounded-lg p-1 text-black dark:text-white"
           name="password"
         />
         <button

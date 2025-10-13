@@ -10,7 +10,7 @@ interface CardProps {
 
 export default function Card({ auth, loading, setLoading }: CardProps) {
   return (
-    <div className="">
+    <div className="dark:text-white">
       <button
         className={`pr-4 mt-5 rounded-lg shadow shadow-borderGray text-white
           ${
