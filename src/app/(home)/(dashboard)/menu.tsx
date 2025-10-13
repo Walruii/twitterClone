@@ -2,7 +2,6 @@ import { K } from "@/lib/K";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faGear } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
-import LogoutInMenu from "./logout";
 import ThemeChanger from "./theme-changer";
 
 export default function Menu() {
@@ -17,7 +16,6 @@ export default function Menu() {
         <p>Settings</p>
       </Link>
       <ThemeChanger />
-      <LogoutInMenu />
     </div>
   );
 }

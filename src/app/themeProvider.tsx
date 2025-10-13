@@ -19,9 +19,9 @@ export default function ThemeProvider({
       localStorage.setItem("theme", savedTheme);
     }
     if (savedTheme) {
-      document.body.classList.toggle("dark", savedTheme === "dark");
+      document.documentElement.classList.toggle("dark", savedTheme === "dark");
     } else {
-      document.body.classList.toggle("dark", true);
+      document.documentElement.classList.toggle("dark", true);
     }
   });
 

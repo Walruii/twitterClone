@@ -6,7 +6,7 @@ export default function TopMenu() {
       <div className="flex justify-between items-center border-y dark:border-zinc-800 p-4">
         <Profile />
 
-        <div className="font-bold font-mono dark:text-white">Twiitter</div>
+        <div className="font-bold font-mono dark:text-white">L00P</div>
 
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -17,7 +17,7 @@ export default function Reload() {
 
   return (
     <button
-      className={`flex w-full justify-center items-center h-10 ${
+      className={`flex w-full justify-center items-center h-10 dark:text-white ${
         isLoading ? "animate-spin" : ""
       }`}
       disabled={isLoading}

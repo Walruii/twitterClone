@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <Dashboard />
       </div>
       <main
-        className="md:max-w-[600px] w-full border-x dark:bg-zinc-950 dark:border-zinc-800 
+        className="md:max-w-[600px] w-full border-x dark:bg-zinc-950 dark:border-zinc-800
     overflow-y-scroll h-screen no-scrollbar"
       >
         <TopMenu />

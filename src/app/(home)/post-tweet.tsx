@@ -112,7 +112,7 @@ export default function PostTweet({
   };
 
   return (
-    <div className="pt-6 border-b dark:border-zinc-800">
+    <div className="pt-6 border-b dark:border-zinc-800 dark:text-white">
       <Image
         className="float-left h-10 w-10 rounded-full ml-4 "
         alt="userImage"

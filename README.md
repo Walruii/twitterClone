@@ -1,4 +1,4 @@
-# TWIITTER (Twitter Clone Web App)
+# L00P
 
 A web application that replicates the core functionalities of Twitter, enabling users to post, like, and interact with tweets in real-time.
 
@@ -39,8 +39,8 @@ A web application that replicates the core functionalities of Twitter, enabling 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/indbhatti/twiitter.git
-   cd twiitter
+   git clone https://github.com/indbhatti/loop.git
+   cd loop
    ```
 
 2. Install dependencies:

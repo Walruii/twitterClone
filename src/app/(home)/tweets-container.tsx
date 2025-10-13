@@ -133,7 +133,7 @@ export default function Tweets({
         {!noMoreTweets ? (
           <>
             <TweetSkel />
-            <Spinner />
+            <Spinner className="dark:text-white" />
           </>
         ) : (
           <h1 className="h-32 flex justify-center items-center dark:text-zinc-700">

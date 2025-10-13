@@ -7,7 +7,6 @@ import Like from "@/lib/models/likeModel";
 import Share from "@/lib/models/shareModel";
 import { ILike } from "@/types/models/like";
 import { IShare } from "@/types/models/share";
-import { IExist } from "@/types/utils";
 
 export const getSharesOfTweet = async (
   tweetId: string
@@ -170,7 +169,7 @@ export const isLikedByUser = async (userId: string, tweetId: string) => {
       console.log("Db not connected");
       return false;
     }
-    const like: IExist | null = await Like.exists({
+    const like = await Like.exists({
       tweetId,
       userId,
     });
@@ -191,7 +190,7 @@ export const isSharedByUser = async (userId: string, tweetId: string) => {
       console.log("Db not connected");
       return false;
     }
-    const share: IExist | null = await Share.exists({
+    const share = await Share.exists({
       tweetId,
       userId,
     });

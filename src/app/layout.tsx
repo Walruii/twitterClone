@@ -6,7 +6,7 @@ import ThemeProvider from "./themeProvider";
 config.autoAddCss = false;
 
 export const metadata: Metadata = {
-  title: "Twiitter",
+  title: "Loop",
   description: "Made by Inderpreet インダー with love",
 };
 

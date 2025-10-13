@@ -7,7 +7,6 @@ import Tweet from "@/lib/models/tweetModel";
 import User from "@/lib/models/userModel";
 import { TweetModes, TweetType } from "@/types/enums";
 import { IModTweet, ITweet } from "@/types/models/tweet";
-import { IExist } from "@/types/utils";
 import {
   getLikesOfTweet,
   getSharesOfTweet,
@@ -68,7 +67,7 @@ export const deleteTweet = async (
       console.log("Db not connected");
       return { status: 500 };
     }
-    const user: IExist | null = await User.exists({ _id: userId });
+    const user = await User.exists({ _id: userId });
     const tweet: ITweet | null = await Tweet.findById(tweetId);
     if (!user || !tweet) {
       console.log("err: user or tweet not found");

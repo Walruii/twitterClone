@@ -6,7 +6,7 @@ import { signOut } from "next-auth/react";
 export default function LogoutInMenu() {
   return (
     <button
-      className="dark:text-white text-2xl flex items-center"
+      className="dark:text-white text-2xl flex items-center hover:cursor-pointer"
       onClick={() => {
         signOut();
       }}
