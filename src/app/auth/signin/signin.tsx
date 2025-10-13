@@ -39,7 +39,7 @@ export default function Signin({
     setLoading(false);
   }
   return (
-    <div className="flex flex-col items-center text-white rounded-xl justify-center h-screen">
+    <div className="flex flex-col items-center rounded-xl justify-center h-screen">
       <h1 className="text-5xl">Sign In</h1>
       <Form submit={submit} error={error} loading={loading} />
       <SignInCard auth="Google" loading={loading} setLoading={setLoading} />

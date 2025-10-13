@@ -10,14 +10,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <Dashboard />
       </div>
       <main
-        className="md:max-w-[600px] w-full border-x dark:bg-zinc-950 dark:border-zinc-800
+        className="md:max-w-[600px] w-full border-x dark:border-zinc-800
     overflow-y-scroll h-screen no-scrollbar"
       >
         <TopMenu />
         {children}
         <BottomMenu />
       </main>
-      <div className="hidden lg:block p-4 basis-1/3 dark:bg-zinc-950">
+      <div className="hidden lg:block p-4 basis-1/3">
         <Guide />
       </div>
     </div>

@@ -1,14 +1,14 @@
 # L00P
 
-A web application that replicates the core functionalities of Twitter, enabling users to post, like, and interact with tweets in real-time.
+A web application that replicates the core functionalities of Twitter, enabling users to post, like, and interact with loops in real-time.
 
 ## Features
 
-- **Real-Time Interactions**: Users can post, like, and engage with tweets seamlessly.
+- **Real-Time Interactions**: Users can post, like, and engage with loops seamlessly.
 - **Responsive Design**: Built with `Tailwind CSS` to ensure a smooth experience across devices.
 - **User Authentication**: NextAuth integration with `Google OAuth` for secure and easy sign-in.
 - **Efficient Data Handling**: Utilizes `Next.js App Router` and `Server Actions` for optimized API management and real-time updates.
-- **Data Persistence**: User and tweet data are stored in `MongoDB` for reliability and scalability.
+- **Data Persistence**: User and loop data are stored in `MongoDB` for reliability and scalability.
 
 ## Technologies Used
 
@@ -25,7 +25,7 @@ A web application that replicates the core functionalities of Twitter, enabling 
 
 ### Database
 
-- **MongoDB**: NoSQL database to manage user and tweet data efficiently.
+- **MongoDB**: NoSQL database to manage user and loop data efficiently.
 
 ## Getting Started
 

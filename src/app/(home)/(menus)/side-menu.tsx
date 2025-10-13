@@ -12,7 +12,7 @@ export default function SideMenu({
   httpsImage: boolean;
 }) {
   return (
-    <div className="absolute left-0 top-0 z-20 flex h-screen flex-col justify-between bg-white dark:bg-background w-2/3">
+    <div className="absolute left-0 top-0 z-20 flex h-screen flex-col justify-between dark:bg-background w-2/3">
       <div className="px-4 py-6">
         <div>
           <Link

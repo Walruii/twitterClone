@@ -78,7 +78,7 @@ export default function PostTweet({
         if (result.status === 200 && result.tweet) {
           setPopupContent(
             <TweetPopUp
-              menuText="You just posted a tweet!"
+              menuText="You just looped!"
               username={username}
               nickname={nickname}
               image={image}
@@ -122,7 +122,7 @@ export default function PostTweet({
       />
       <form className="ml-20 mr-3">
         <textarea
-          className="border-none dark:bg-zinc-950 rounded-xl p-2 w-full"
+          className="border-none rounded-xl p-2 w-full"
           rows={2}
           placeholder={placeholderText}
           onChange={handleInputChange}

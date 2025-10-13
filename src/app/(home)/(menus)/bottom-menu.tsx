@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function BottomMenu() {
   return (
-    <div className="sm:hidden bottom-0 absolute bg-white dark:bg-zinc-950 w-full">
+    <div className="sm:hidden bottom-0 absolute w-full">
       <div className="flex justify-around items-center border-y dark:border-zinc-800">
         <Link href={K.Links.home} className="py-4 dark:invert">
           <svg

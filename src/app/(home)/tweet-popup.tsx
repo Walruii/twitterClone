@@ -21,7 +21,7 @@ export default function TweetPopUp({
   closePopup: () => void;
 }) {
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center">
+    <div className="fixed inset-0 bg-opacity-50 z-50 flex justify-center items-center">
       <div className="bg-white dark:bg-zinc-950 rounded-lg p-4 w-96">
         <div className="flex justify-between items-center pb-8">
           <h1 className="font-bold text-xl">{menuText}</h1>

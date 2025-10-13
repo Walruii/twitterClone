@@ -24,7 +24,7 @@ export default function ThreeDots({
       />
       {menuOpen && (
         <div
-          className="absolute right-0 mt-2 w-48 p-2 dark:bg-zinc-950 border 
+          className="absolute right-0 mt-2 w-48 p-2 bg-white dark:bg-zinc-950 border
         dark:border-zinc-800 rounded shadow-lg flex flex-col z-30"
         >
           <div className="p-2">Menu</div>

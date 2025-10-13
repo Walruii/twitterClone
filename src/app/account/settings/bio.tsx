@@ -39,7 +39,7 @@ export default function Bio({ bio: initialBio }: { bio: string }) {
       <div className="ml-auto">
         <div className="flex w-full max-w-sm items-center space-x-2">
           <textarea
-            className="border dark:border-zinc-800 dark:bg-zinc-950 rounded-xl p-2 w-full"
+            className="border dark:border-zinc-800 rounded-xl p-2 w-full"
             placeholder="Bio"
             name="bio"
             value={bio}
